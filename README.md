@@ -4,16 +4,22 @@ Campaign risk waterfall for VWO rollout risk, Tableau source trust, and Power BI
 
 ![ci](https://github.com/mizcausevic-dev/vwo-tableau-powerbi-campaign-risk-waterfall/actions/workflows/ci.yml/badge.svg)
 
-## Why this exists
+## What this ships
 
-This is a Kinetic Gain signal surface for VWO, Tableau, Power BI. It turns fragmented operational facts into board-ready questions:
+This repo is a static Kinetic Gain evidence surface, not a placeholder page. It packages VWO, Tableau, Power BI signals into a board-readable operating view:
 
-- Where are we exposed?
-- Where can we save money?
-- Where should we invest?
-- What story do we tell with evidence?
+- Exposure: where workflow, platform, or communications risk can become visible.
+- Savings: where duplicate effort, drift, or manual coordination can be reduced.
+- Investment: which next action deserves funding, ownership, or escalation.
+- Story: how the evidence should be explained to executives or investors.
 
-## Signal lanes
+## Live surface
+
+- Product page: https://mizcausevic-dev.github.io/vwo-tableau-powerbi-campaign-risk-waterfall/
+- Repository: https://github.com/mizcausevic-dev/vwo-tableau-powerbi-campaign-risk-waterfall
+- Portfolio atlas: https://portfolio.kineticgain.com/
+
+## Evidence lanes
 
 - experiment integrity
 - holdout trust
@@ -22,17 +28,14 @@ This is a Kinetic Gain signal surface for VWO, Tableau, Power BI. It turns fragm
 - revenue lift evidence
 - board readout readiness
 
-## Stack signal
+## Related surfaces
 
-- Primary language signal: TypeScript
-- Vertical: Revenue Operations / Data Engineering
-- Portfolio family: VWO + Tableau + Power BI
-- Live surface: https://mizcausevic-dev.github.io/vwo-tableau-powerbi-campaign-risk-waterfall/
+- [VWO Tableau Power BI Decision Evidence Room](https://mizcausevic-dev.github.io/vwo-tableau-powerbi-decision-evidence-room/)
 
 ## Local verification
 
-~~~bash
+```bash
 npm test
-~~~
+```
 
-The validation script checks the generated evidence payload and confirms the static board surface exists.
+The validation script checks the data payload, generated page, interactive evidence table, related links, and footer links.

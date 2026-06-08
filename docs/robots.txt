@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://mizcausevic-dev.github.io/vwo-tableau-powerbi-campaign-risk-waterfall/sitemap.xml
